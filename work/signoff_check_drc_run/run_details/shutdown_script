@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep gridley.ece.Virginia.EDU > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 36574 
+else 
+ssh gridley.ece.Virginia.EDU kill 36574 
+ sleep 10 
+ssh gridley.ece.Virginia.EDU kill -9 36574 
+fi

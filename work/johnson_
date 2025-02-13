@@ -1,0 +1,65 @@
+Information: Using 1 threads for LVS
+[Check Short] Stage 1	Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 1-2	Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 2	Elapsed =    0:00:00, CPU =    0:00:00
+Detected more than 20 short violations. Skip checking short violations
+[Check Short] Stage 3	Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] End	Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] Init	Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Port VSS have no valid pin shapes. Skip this port. (RT-203)
+Warning: Port VDD have no valid pin shapes. Skip this port. (RT-203)
+[Check Net] 10% 	Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Port clk have no valid pin shapes. Skip this port. (RT-203)
+[Check Net] 20% 	Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Port out[0] have no valid pin shapes. Skip this port. (RT-203)
+Warning: Port out[1] have no valid pin shapes. Skip this port. (RT-203)
+[Check Net] 30% 	Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Port out[2] have no valid pin shapes. Skip this port. (RT-203)
+Warning: Port out[3] have no valid pin shapes. Skip this port. (RT-203)
+[Check Net] 40% 	Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Port out[4] have no valid pin shapes. Skip this port. (RT-203)
+Warning: Port out[5] have no valid pin shapes. Skip this port. (RT-203)
+[Check Net] 50% 	Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Port out[6] have no valid pin shapes. Skip this port. (RT-203)
+Warning: Port out[7] have no valid pin shapes. Skip this port. (RT-203)
+[Check Net] 60% 	Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Port r have no valid pin shapes. Skip this port. (RT-203)
+Warning: Net r has less than 2 valid port. Skip open checking for this net. (RT-204)
+[Check Net] 70% 	Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] 80% 	Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] All nets are submitted.
+[Check Net] 90% 	Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] 100%	Elapsed =    0:00:00, CPU =    0:00:00
+Information: Detected short violation. Cell1: out_reg_6_. Net2: copt_net_4. BBox: (0.1780 0.4030)(0.2120 0.4370). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.2140 2.3530)(3.3010 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.2140 2.3530)(3.3010 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.2140 2.3530)(3.3010 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.1370 2.3530)(3.2240 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.1370 2.3530)(3.2240 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.1370 2.3530)(3.2240 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.1370 2.3530)(3.2240 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.1370 2.3530)(3.3010 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.1370 2.3530)(3.3010 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.1370 2.3530)(3.3010 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.1370 2.3530)(3.3010 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.1370 2.3530)(3.3010 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Cell1: xofiller!SAEDRVT14_FILL_ECO_1!x31820y24000. Net2: VDD. BBox: (3.1370 2.3530)(3.3010 2.4470). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: n1. Net2: out[4]. BBox: (1.8220 2.0830)(1.8670 2.1170). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: n1. Net2: out[4]. BBox: (1.7750 2.0830)(1.9140 2.1170). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: n1. Net2: out[4]. BBox: (1.6850 2.0830)(1.8670 2.1170). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: n1. Net2: out[4]. BBox: (1.6270 2.0830)(1.7770 2.1170). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: n1. Net2: out[4]. BBox: (1.8220 2.0830)(1.9250 2.1170). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: n1. Net2: out[4]. BBox: (1.7750 2.0830)(1.7770 2.1170). Layer: M2. (RT-586)
+
+===============================================================
+    Maximum number of violations is set to 20
+    Abort checking when more than 20 violations are found
+    All violations might not be found.
+===============================================================
+Total number of input nets is 18.
+Total number of short violations is 20.
+Total number of open locations is 0 (0 open nets).
+Total number of floating pins is 0.
+
+Elapsed =    0:00:00, CPU =    0:00:00
+1

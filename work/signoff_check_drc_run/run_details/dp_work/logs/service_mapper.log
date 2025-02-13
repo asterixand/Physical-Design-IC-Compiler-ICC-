@@ -1,0 +1,30 @@
+36752:11 Feb 22:14:17.196 : Launched Redis process 36753 on port 33553. Attempting to connect...
+36753:C 11 Feb 2025 22:14:17.199 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+36753:C 11 Feb 2025 22:14:17.225 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=36753, just started
+36753:C 11 Feb 2025 22:14:17.225 # Configuration loaded
+36753:M 11 Feb 2025 22:14:17.226 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+36753:M 11 Feb 2025 22:14:17.226 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+36753:M 11 Feb 2025 22:14:17.226 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+36753:M 11 Feb 2025 22:14:17.227 * Running mode=standalone, port=33553.
+36753:M 11 Feb 2025 22:14:17.227 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+36753:M 11 Feb 2025 22:14:17.227 # Server initialized
+36753:M 11 Feb 2025 22:14:17.227 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+36753:M 11 Feb 2025 22:14:17.227 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo madvise > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled (set to 'madvise' or 'never').
+36753:M 11 Feb 2025 22:14:17.228 * Ready to accept connections
+36752:11 Feb 22:14:17.228 : Successfully connected to Redis at 127.0.0.1:33553
+36752:11 Feb 22:14:17.229 : Successfully connected to local Redis instance at gridley.ece.virginia.edu:33553
+36762:11 Feb 22:14:27.251 : [11 Feb 22:14:17.297] Service 'cluster' registered on gridley.ece.virginia.edu:42063
+36763:11 Feb 22:14:27.251 : [11 Feb 22:14:17.297] Service 'lock_manager' registered on gridley.ece.virginia.edu:50641
+36765:11 Feb 22:14:27.251 : [11 Feb 22:14:17.302] Service 'memory_manager' registered on gridley.ece.virginia.edu:47606
+36766:11 Feb 22:14:27.251 : [11 Feb 22:14:17.304] Service 'cleanup' registered on gridley.ece.virginia.edu:54703
+36764:11 Feb 22:14:27.251 : [11 Feb 22:14:23.004] Service 'hdb' registered on gridley.ece.virginia.edu:40582
+37057:11 Feb 22:14:37.253 : [11 Feb 22:14:27.774] Service 'license_manager' registered on gridley.ece.virginia.edu:50077
+36763:11 Feb 22:14:39.397 : [11 Feb 22:14:39.342] Removing service 'service:lock_manager'
+36764:11 Feb 22:14:39.397 : [11 Feb 22:14:39.342] Removing service 'service:hdb'
+36762:11 Feb 22:14:39.397 : [11 Feb 22:14:39.342] Removing service 'service:cluster'
+36765:11 Feb 22:14:39.397 : [11 Feb 22:14:39.342] Removing service 'service:memory_manager'
+36766:11 Feb 22:14:39.397 : [11 Feb 22:14:39.342] Removing service 'service:cleanup'
+37057:11 Feb 22:14:39.397 : [11 Feb 22:14:39.344] Removing service 'service:license_manager'
+36752:11 Feb 22:14:39.397 : Parent died. Exiting.
+36753:M 11 Feb 2025 22:14:39.397 # User requested shutdown...
+36753:M 11 Feb 2025 22:14:39.397 # Redis is now ready to exit, bye bye...
